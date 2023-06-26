@@ -25,12 +25,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // Part 2
   const body = document.getElementsByTagName('body');
   this.body.style.backgroundColor = 'lightgreen';
+  
   // Part 3
   const favThings = document.getElementById('favorite-things');
   favThings.removeChild(favThings.lastElementChild);
 
   // Part 4
+  const specialTitle = document.querySelectorAll('.special-title');
 
+  for (let i of specialTitle) {
+    i.style.fontSize = '2rem'
+  }
 
   // Part 5
 
