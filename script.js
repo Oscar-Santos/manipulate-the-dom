@@ -26,7 +26,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   const body = document.getElementsByTagName('body');
   this.body.style.backgroundColor = 'lightgreen';
   // Part 3
-
+  const favThings = document.getElementById('favorite-things');
+  favThings.removeChild(favThings.lastElementChild);
 
   // Part 4
 
