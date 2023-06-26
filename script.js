@@ -7,6 +7,7 @@ let quotes = [
   `It don't matter if you win by an inch or a mile. Winning's winning.`
 ];
 
+
 document.addEventListener("DOMContentLoaded", function(event) {
   // Random quote of the day generator
   const randomQuote = function() {
