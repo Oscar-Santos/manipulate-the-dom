@@ -39,7 +39,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   // Part 5
 
-
+  const updatedRaces = document.querySelectorAll('#past-races li')
+ 
+  for (let i of updatedRaces) {
+    if (i.textContent === 'Chicago') {
+      i.remove();
+    }
+  }
+ 
   // Part 6
 
 
