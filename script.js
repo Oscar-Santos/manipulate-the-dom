@@ -56,7 +56,21 @@ document.addEventListener("DOMContentLoaded", function(event) {
   pastRacesList.appendChild(newRace);
 
   // Part 7
+  const newBlogPost = document.createElement('div');
+  newBlogPost.classList.add('blog-post');
+  newBlogPost.style.backgroundColor = 'rebeccapurple';
 
+  const blogPostTitle = document.createElement('h1');
+  blogPostTitle.textContent = "Paris"
+
+  const blogPostContent = document.createElement('p');
+  blogPostContent.textContent = "I crossed 3 red lights on the famous Avenue Montaigne"
+
+  newBlogPost.appendChild(blogPostTitle);
+  newBlogPost.appendChild(blogPostContent);
+
+  const blogContainer = document.querySelector('.main');
+  blogContainer.appendChild(newBlogPost);
 
   // Part 8
 
