@@ -8,6 +8,7 @@ let quotes = [
 ];
 
 
+
 document.addEventListener("DOMContentLoaded", function(event) {
   // Random quote of the day generator
   const randomQuote = function() {
@@ -18,7 +19,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // Do all of your work inside the document.addEventListener  
 
   // Part 1
-
+  const mainTitle = document.querySelector('#main-title');
+  mainTitle.innerHTML = `<h1> DOM Toretto Website </h1>`
 
   // Part 2
 
