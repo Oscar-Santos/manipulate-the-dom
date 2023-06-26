@@ -73,7 +73,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   blogContainer.appendChild(newBlogPost);
 
   // Part 8
-
+  const quote = document.querySelector('#quote-title');
+  quote.addEventListener('click', randomQuote)
 
   // Part 9
 
