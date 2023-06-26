@@ -49,6 +49,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
  
   // Part 6
 
+  const newRace = document.createElement('li')
+  newRace.textContent = "Paris"; 
+
+  const pastRacesList = document.querySelector('#past-races');
+  pastRacesList.appendChild(newRace);
 
   // Part 7
 
