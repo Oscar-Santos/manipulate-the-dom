@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   mainTitle.innerHTML = `<h1> DOM Toretto Website </h1>`
 
   // Part 2
-
-
+  const body = document.getElementsByTagName('body');
+  this.body.style.backgroundColor = 'lightgreen';
   // Part 3
 
 
