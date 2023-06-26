@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // Random quote of the day generator
   const randomQuote = function() {
     document.querySelector('#quote-of-the-day').textContent = `"${quotes[Math.floor(Math.random() * quotes.length)]}"`;
+
   };
   randomQuote();
   
