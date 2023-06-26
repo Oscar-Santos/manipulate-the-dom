@@ -77,8 +77,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
   quote.addEventListener('click', randomQuote)
 
   // Part 9
-
-
-
+  const blogEl = document.querySelectorAll('.blog-post')
+  console.log(blogEl)
+  for (let i = 0; i < blogEl.length; i++){
+    blogEl[i].addEventListener('mouseenter', function(){
+      blogEl[i].classList.toggle('red')
+    })
+    blogEl[i].addEventListener('mouseout', function(){
+      blogEl[i].classList.toggle('purple')
+    }) 
+  }
 
 });
